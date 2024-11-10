@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<title>T.P Final</title>
+	
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<link href="jquery/jquery-ui.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="navsociales">
+	<ul><li><a href="https://www.instagram.com/"><img src="img/Instagram.png" width="35" height="35" alt=""/></a></li></ul>
+	<ul><li><a href="https://www.youtube.com/"><img src="img/Youtube.png" width="35" height="35" alt=""/></a></li></ul>
+	<ul><li><a href="https://twitter.com/?lang=es"><img src="img/Twiter.png" width="35" height="35" alt=""/></a></li></ul>
+	<ul><li><a href="https://www.facebook.com/?locale=es_LA"><img src="img/Facebook.png" width="35" height="35" alt=""/></a></li></ul>
+	<ul><li><a href="https://ar.linkedin.com/"><img src="img/Linkedin.png" width="35" height="35" alt=""/></a></li></ul>
+	</div> <!--cierra navsociales-->
+	
+	<div id="contenedor">
+		<header>
+			
+			<figcaption>
+				
+				 					
+			<a href="index.html"><img src="img/7418e5d6b50fa3a88e2b56773a6c18ad.png" width="300" height="300" alt=""/></a>
+		             
+				realidad aumentada
+				
+		  </figcaption>
+		</header>
+			
+		<div id="botonera">
+			<ul>
+			<li><a href="index.html">inicio</a></li>
+			<li><a href="Qué es.html">¿qué es?</a></li>
+			<li><a href="usos.html">usos</a></li>
+			<li><a href="Galeria.html">galeria</a></li>
+			<li><a href="Contacto.html">contacto</a></li>
+			</ul>
+		</div><!--cierra botonera-->
+		<div id="encabezado">
+			
+			<!-- #region Jssor Slider Begin -->
+    <!-- Generator: Jssor Slider Composer -->
+    <!-- Source: https://www.jssor.com/demos/banner-slider.slider/=edit -->
+    <script src="js/jssor.slider-28.1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Orientation: 2,
+                $NoDrag: true
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 1400;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <style>
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .jssora061 {display:block;position:absolute;cursor:pointer;}
+        .jssora061 .a {fill:none;stroke:#fff;stroke-width:360;stroke-linecap:round;}
+        .jssora061:hover {opacity:.8;}
+        .jssora061.jssora061dn {opacity:.5;}
+        .jssora061.jssora061ds {opacity:.3;pointer-events:none;}
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/Realidad Aumentada.jpg" />
+                <div u="thumb">Realidad Aumenta
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/Agricultura.png" />
+                <div u="thumb">Agricultura
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/Investigacion.jpg" />
+                <div u="thumb">Investigación
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/Educacion.png" />
+                <div u="thumb">Educación
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/Diseño.jpg" />
+                <div u="thumb">Diseño
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/Fauna.jpg" />
+                <div u="thumb">Naturaleza
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/Entretenimiento.jpg" />
+                <div u="thumb">Entretenimiento
+                </div>
+            </div>
+                        
+            
+        </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">image gallery</a>
+        <!-- Thumbnail Navigator -->
+        <div u="thumbnavigator" style="position:absolute;bottom:0px;left:0px;width:980px;height:50px;color:#FFF;overflow:hidden;cursor:default;background-color:rgba(0,0,0,.5);">
+            <div u="slides">
+                <div u="prototype" style="position:absolute;top:0;left:0;width:980px;height:50px;">
+                    <div u="thumbnailtemplate" style="position:absolute;top:0;left:0;width:100%;height:100%;font-family:arial,helvetica,verdana;font-weight:normal;line-height:50px;font-size:16px;padding-left:10px;box-sizing:border-box;"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora061" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <path class="a" d="M11949,1919L5964.9,7771.7c-127.9,125.5-127.9,329.1,0,454.9L11949,14079"></path>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora061" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <path class="a" d="M5869,1919l5984.1,5852.7c127.9,125.5,127.9,329.1,0,454.9L5869,14079"></path>
+            </svg>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();
+    </script>
+    <!-- #endregion Jssor Slider End -->
+		</div><!--cierra encabezado-->
+			
+			<div id="centro">
+				
+				<!-- Tabs -->
+
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">¿Qué es?</a></li>
+		<li><a href="#tabs-2">¿Cómo funciona?</a></li>
+		<li><a href="#tabs-3">Características</a></li>
+		<li><a href="#tabs-4">¿Para qué sirve?</a></li>
+		<li><a href="#tabs-5">Desventajas</a></li>
+		<li><a href="#tabs-6">Tipos</a></li>
+		
+	</ul>
+	<div id="tabs-1">
+	<div class="textos">La realidad aumentada es un tipo de tecnología que permite usar capas de elementos virtuales sobre imágenes reales. Ofrece experiencias interactivas al usuario a partir de una combinación de la dimensión virtual y física, por medio de dispositivos digitales como los teléfonos inteligentes.
+	<br>
+	La tecnología de realidad aumentada complementa la realidad con elementos digitales adicionales. Es decir, el contenido generado por computadora se superpone a la realidad y entonces la realidad «aumenta».
+	<br>
+	El ejemplo más famoso de realidad aumentada en los últimos años es Pokémon Go, que superpone elementos del juego en el mundo real. Los pokemones aparecen en tu pantalla como si los vieras a través de la lente de la cámara de tu dispositivo.</div></div>
+	
+	<div id="tabs-2">
+	<div class="textos">La realidad aumentada funciona con tecnología multimedia, modelado 3D, seguimiento y registro en tiempo real de objetos, interacción inteligente, detección de imágenes y más. Superpone el contenido y la información digital en el mundo físico, como si realmente estuviera en el mundo real; todo en un mismo espacio. 
+    <br>
+    La tecnología de realidad aumentada ha revolucionado el panorama virtual. Se trata de una versión digital del mundo físico real que se consigue a través de elementos visuales digitales y de sonido para lograr la inmersión de los usuarios mediante la tecnología. 
+    <br>
+    Las empresas que se involucran en la realidad aumentada han ido creciendo y está cada vez más disponible para los consumidores. A finales de 2020 se estimó que había un total de 598 millones de dispositivos con realidad aumentada activos y se proyecta que aumente a 1,73 millones para 2024.</div></div>
+	
+	<div id="tabs-3">
+	<div class="textos">1.Superposición del mundo real y digital
+    La realidad aumentada aumenta el mundo real a través de capas adicionales de información digital proyectada en ella; combina el mundo físico con elementos virtuales superposicionados, generados por un dispositivo. 
+    <br>
+    2. Tiempo real
+    Una de las características principales de la realidad aumentada es la visión del mundo físico en tiempo real. Los elementos aumentan o se mejoran mediante entradas generadas por una computadora, que pueden ir desde sonido y gráficos hasta imágenes multimedia y GPS. 
+    <br>
+    3. Interacción 3D
+    La realidad virtual es una combinación entre el mundo real y el virtual; en tiempo real se interactúa con elementos 3D de objetos virtuales y reales.
+	</div></div>
+	
+	<div id="tabs-4">
+	<div class="textos">Si quieres saber si este tipo de tecnología puede ayudar al crecimiento de tu negocio, a continuación enumeramos algunas de los beneficios que ofrece: 
+    <br>
+    1. Mejora la experiencia del usuario
+    La combinación del mundo virtual con el mundo real hace que la experiencia del usuario se multiplique y, por lo tanto, obtiene una mejor satisfacción del producto o servicio.
+    <br>
+    2. Facilita el uso de productos 
+    La realidad aumentada puede ayudar a los consumidores a tener mayor información sobre los productos que están adquiriendo, con lo que es posible ofrecer una mejor experiencia de compra. 
+    <br>
+    3. Favorece la interacción social
+    Uno de las principales objetivos de la realidad aumentada es la inmersión del usuario que conlleva una mayor interacción social; es decir, se centra en las dimensiones de la imaginación y la sociabilidad, donde los consumidores tienen la opción de relacionarse con otros jugadores por medio de la participación social. 
+    <br>
+    4. Mejora el aprendizaje
+    La realidad virtual puede llevar a los usuarios a aprender cosas nuevas e incluso practicar otras habilidades que de otra forma nunca conocerían.
+
+	</div></div>
+
+	<div id="tabs-5">
+	<div class="textos">Desventajas de la realidad aumentada:
+	<br>
+    1. Es costosa
+    La realidad aumentada requiere equipos de tecnología especializados que suelen ser costosos, por lo que no todas las organizaciones pueden aprovechar esta tecnología.
+    <br>
+    2. Puede causar accidentes
+    La inmersión de la realidad aumentada puede ocultar señales del mundo real a los ojos de usuario. Esto puede causar accidentes, por ejemplo los sucesos ocurridos con algunos usuarios que conducían mientras jugaban Pokémon Go. 
+    <br>
+    3. Puede representar problemas de confidencialidad
+    Otra de las principales desventajas de la realidad aumentada es la recopilación de datos significativos de los usuarios, que puede generar problemas legales a las marcas que la utilizan.
+    <br>
+    Existen varios tipos de realidad aumentada. 
+
+	</div></div>
+				
+	<div id="tabs-6">
+	<div class="textos">1. Realidad aumentada basada en proyección:
+	Este tipo de realidad aumentada proyecta imágenes digitales sobre objetos físicos en un espacio físico real. Puede ser o no interactivo y se utiliza para crear una proyección de objetos que se ven en profundidad; por ejemplo, se utiliza para proyectar cómo se puede ver un espacio real al agregar algún objeto. 
+    <br>
+    2. Realidad aumentada basada en reconocimiento:
+    Funciona con un código QR que puede ser escaneado y activa una imagen a través de la cámara de un dispositivo. Por ejemplo, es la que se utiliza para reconocer obras de arte en los museos.
+    <br>
+    3. Realidad aumentada basada en la ubicación:
+    Se basa en GPS, acelerómetro, brújula digital y otras tecnologías para identificar la ubicación de un dispositivo con alta precisión. Está disponible para la mayoría de los usuarios de dispositivos móviles. 
+    <br>
+    4. Realidad aumentada basada en la superposición:
+    Utiliza el reconocimiento de objetos para reemplazar un objeto completo o una parte de él con una vista aumentada. Por ejemplo, los médicos pueden utilizar esta tecnología para superponer la vista de rayos X de alguna parte del cuerpo del paciente en la imagen real, lo que les proporcionará una mejor comprensión del daño a los huesos. 
+    <br>
+    5. Realidad aumentada basada en esquemas:
+    Usa el reconocimiento de objetos para proyectar imágenes que no pueden ser visualizadas en el mundo real por diferentes condiciones; por ejemplo, las cámaras avanzadas en un automóvil que permiten delinear los peligros o límites de la carretera, para alertar cuando hay poca visibilidad.
+
+	</div>
+	
+	  </div>
+	
+				</div><!--cierra tabs-->
+				
+			</div><!--cierra centro-->
+			
+		
+		<div id="pie">copyright 2023 / Vargas, Jorge A.</div>	
+		
+		
+	</div><!--cierra contenedor-->
+	
+	</body>
+	
+	<script src="jquery/external/jquery/jquery.js"></script>
+    <script src="jquery/jquery-ui.js"></script>
+	<script> $( "#tabs" ).tabs();</script>
+</html>

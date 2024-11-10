@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<title>T.P Final</title>
+	
+<link href="estilos.css" rel="stylesheet" type="text/css">
+	<link href="jquery/jquery-ui.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="navsociales">
+	<ul><li><a href="https://www.instagram.com/"><img src="img/Instagram.png" width="35" height="35" alt=""/></a></li></ul>
+	<ul><li><a href="https://www.youtube.com/"><img src="img/Youtube.png" width="35" height="35" alt=""/></a></li></ul>
+	<ul><li><a href="https://twitter.com/?lang=es"><img src="img/Twiter.png" width="35" height="35" alt=""/></a></li></ul>
+	<ul><li><a href="https://www.facebook.com/?locale=es_LA"><img src="img/Facebook.png" width="35" height="35" alt=""/></a></li></ul>
+	<ul><li><a href="https://ar.linkedin.com/"><img src="img/Linkedin.png" width="35" height="35" alt=""/></a></li></ul>
+	</div> <!--cierra navsociales-->
+	
+	<div id="contenedor">
+		<header>
+			
+			<figcaption>
+				
+
+					
+			<a href="index.html"><img src="img/7418e5d6b50fa3a88e2b56773a6c18ad.png" width="300" height="300" alt=""/></a>
+				
+				realidad aumentada
+		  
+		  </figcaption>
+		</header>
+			
+		<div id="botonera">
+			<ul>
+			<li><a href="index.html">inicio</a></li>
+			<li><a href="Qué es.html">¿qué es?</a></li>
+			<li><a href="usos.html">usos</a></li>
+			<li><a href="Galeria.html">galeria</a></li>
+			<li><a href="contacto">contacto</a></li>
+			</ul>
+		</div><!--cierra botonera-->
+		<div id="encabezado">
+			
+			<!-- #region Jssor Slider Begin -->
+    <!-- Generator: Jssor Slider Composer -->
+    <!-- Source: https://www.jssor.com/demos/banner-slider.slider/=edit -->
+    <script src="js/jssor.slider-28.1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Orientation: 2,
+                $NoDrag: true
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 1400;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <style>
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .jssora061 {display:block;position:absolute;cursor:pointer;}
+        .jssora061 .a {fill:none;stroke:#fff;stroke-width:360;stroke-linecap:round;}
+        .jssora061:hover {opacity:.8;}
+        .jssora061.jssora061dn {opacity:.5;}
+        .jssora061.jssora061ds {opacity:.3;pointer-events:none;}
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/Realidad Aumentada.jpg" />
+                <div u="thumb">Realidad Aumenta
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/Agricultura.png" />
+                <div u="thumb">Agricultura
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/Investigacion.jpg" />
+                <div u="thumb">Investigación
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/Educacion.png" />
+                <div u="thumb">Educación
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/Diseño.jpg" />
+                <div u="thumb">Diseño
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/Fauna.jpg" />
+                <div u="thumb">Naturaleza
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/Entretenimiento.jpg" />
+                <div u="thumb">Entretenimiento
+                </div>
+            </div>
+                        
+            
+        </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">image gallery</a>
+        <!-- Thumbnail Navigator -->
+        <div u="thumbnavigator" style="position:absolute;bottom:0px;left:0px;width:980px;height:50px;color:#FFF;overflow:hidden;cursor:default;background-color:rgba(0,0,0,.5);">
+            <div u="slides">
+                <div u="prototype" style="position:absolute;top:0;left:0;width:980px;height:50px;">
+                    <div u="thumbnailtemplate" style="position:absolute;top:0;left:0;width:100%;height:100%;font-family:arial,helvetica,verdana;font-weight:normal;line-height:50px;font-size:16px;padding-left:10px;box-sizing:border-box;"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora061" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <path class="a" d="M11949,1919L5964.9,7771.7c-127.9,125.5-127.9,329.1,0,454.9L11949,14079"></path>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora061" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <path class="a" d="M5869,1919l5984.1,5852.7c127.9,125.5,127.9,329.1,0,454.9L5869,14079"></path>
+            </svg>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();
+    </script>
+    <!-- #endregion Jssor Slider End -->
+		</div><!--cierra encabezado-->
+			
+			<div id="centro">
+				<!-- Accordion -->
+
+<div id="accordion">
+	<h3>Video juegos</h3>
+	<div>
+Quizás donde más se haya avanzado en realidad aumentada. Todas las grandes empresas de este sector tienen ya potentes desarrollos y lanzamientos de videojuegos que combinan la realidad física con la virtual. Además, ofrecen múltiples posibilidades de personalización de cada juego.</div>
+	
+	<h3>Visión de Realidad Aumentada</h3>
+	<div>
+Las Google Glass, las gafas HoloLens de Microsoft, y los cascos de realidad virtual de Samsung, HTC o Sony (además de proyectos que están preparando otras empresas como Facebook) utilizan ya la realidad aumentada. Estos desarrollos permiten al usuario sensaciones de tacto de objetos generados por ordenador dentro de su campo visual. También ofrecen la posibilidad de interactuar en diferentes situaciones que mezclan lo material y lo artificial.</div>
+	
+	<h3>Moda</h3>
+	<div>
+Un ámbito donde ya se usa con regularidad la realidad aumentada es la moda, por la posibilidad de probarte ropa virtualmente y ver cómo nos queda. También hay ya dispositivos para realidad aumentada en el terreno de la óptica, para probarnos gafas, o del maquillaje.</div>
+	
+	<h3>Comprar piso, reformarlo o amueblarlo</h3>
+	<div>Podemos recrear una posible reforma de un piso o cómo amueblarlo. De hecho, IKEA es pionera en el uso de realidad aumentada en sus catálogos y la reacción del público ha sido muy positiva. Los usuarios pueden mirar el catálogo, escanear un producto que les guste con su 'smartphone' y apuntar al lugar donde les gustaría colocar el mueble en su hogar. Una imagen a escala del mueble se proyecta virtualmente sobre la imagen de la habitación y el consumidor puede ver virtualmente en su pantalla cómo se vería el producto en su casa.</div>
+	
+	<h3>Logística, transporte e industria</h3>
+	<div>
+Las empresas de logística y transporte han empezado ya a utilizar dispositivos con realidad aumentada sobre todo para ver cómo colocar y encajar las mercancías en sus almacenes, naves y medios de transportes. En la industria, las empresas alemanas Volkswagen y Bosch son pioneras en incorporar a sus procesos productivos y maquinarias la realidad aumentada. Los nuevos dispositivos guían a los trabajadores en sus misiones con una mayor precisión y eficiencia.</div>
+	
+	<h3>Seguridad e investigación policial</h3>
+	<div>
+La seguridad es un ámbito donde se desarrollará ampliamente la realidad aumentada, especialmente en la combinación de dispositivos o efectivos de seguridad en diferentes recintos físicos que requieran sus servicios. También los CSI podrán disponer de simulaciones virtuales combinadas con pruebas físicas para realizar sus investigaciones.</div>
+	
+	<h3>Publicidad</h3>
+	<div>
+El mundo de la publicidad ha sido uno de los primeros en adentrarse con pasión en la nueva realidad aumentada, donde ve un altísimo potencial para desarrollar nuevas actividades de promoción que “enganchen” a los consumidores. Por ejemplo, la empresa de publicidad Blippar ya ha desarrollado una 'app' que permite escanear productos, folletos o anuncios con el móvil para iniciar experiencias interactivas en la pantalla. Hasta ahora, las campañas de publicidad se basaban en publicar y esperar a ver qué pasaba, pero no había forma de saber exactamente cuál era el impacto. Ahora, la tecnología facilita una alta precisión para ver cómo los consumidores interactúan con la campaña.</div>
+	
+               </div><!--cierra acordeon-->
+
+			
+		
+		<div id="pie">copyright 2023 / Vargas, Jorge A.</div>	
+		
+	
+		
+		</div><!--cierra centro-->
+		
+		
+	</div><!--cierra contenedor-->
+	
+	
+	
+
+</body>
+	<script src="jquery/external/jquery/jquery.js"></script><!--Hay que agregar el jquery del inicio(eso hace que lo pueda linkear de la carpeta)-->
+<script src="jquery/jquery-ui.js"></script><!--igual que en el de arriba-->
+<script>
+$( "#accordion" ).accordion();
+	</script>
+</html>

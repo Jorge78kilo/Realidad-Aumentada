@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Nunito&display=swap');
+/*font-family: 'Kanit', sans-serif;
+font-family: 'Nunito', sans-serif;*/
+
+*{margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body {background-color:antiquewhite;
+	}
+
+#navsociales{width: 100%;
+             height: 50px;}
+
+#navsociales ul{width: 90%;
+                margin: auto;
+}
+
+#navsociales ul li{float: right;
+                   list-style: none;}
+
+#contenedor{
+    background-color: rgba(2,2,2,1.00);
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+header{
+	height: 350px;
+	/*	border: solid yellow 1px;*/
+	
+}
+#slider{
+	height: 430px;
+		/*border: solid yellow 1px;*/
+	
+}
+
+figcaption{font-family:'Kanit', sans-serif;
+	       font-weight: 300;
+           font-size:38px;
+	       text-transform: uppercase;
+           color:rgba(241,238,238,1.00);
+           text-align:center;
+           margin-top:10px;
+           margin-bottom:20px;}
+
+img{display:block;
+    margin:auto;}
+
+
+#botonera{
+	height: 50px;
+	background-color:rgba(39,38,38,1.00);
+	
+}
+
+#botonera ul{
+	width:90%;
+	margin:auto;
+    /*border: solid rgba(255,238,7,1.00) 1px;*/}
+
+#botonera ul li{
+	width: 19.5%;
+	float: left;
+	line-height: 50px;
+	vertical-align: center;
+	list-style-type: none;/*quita las viñetas*/
+	/*border: solid red 1px;*//*se aplica para ver con claridad las medidas*/
+	text-align:center;
+	}
+	
+#botonera ul li a{
+	text-decoration: none;/*quita las lineas de debajo del tesxto*/
+	color:rgba(255,255,255,1.00);
+	text-transform: capitalize;
+    font-family: 'Kanit', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	}
+
+#botonera ul li a:hover{color:aquamarine;}
+
+#centro{background-color: rgba(255,255,255,1.00);
+	   /* margin-top: 50px;
+	    margin-bottom: 50px;*/
+        height:500px;
+        padding: 20px;/*mueve los margenes superiores para que el objeto no quede pegado*/}
+
+.demoHeaders{margin-top: 120px;}
+
+
+#caja1{
+	  width: 1000px;
+      height:450px;
+      margin-top: 15px;
+	  margin-bottom: 10px;
+      margin-left: 100px;
+	  margin-right: 200px;
+	  }
+
+#caja1:hover{box-shadow: 0px -13px 26px 3px rgba(8,5,43,0.79);
+-webkit-box-shadow: 0px -13px 26px 3px rgba(8,5,43,0.79);
+-moz-box-shadow: 0px -13px 26px 3px rgba(8,5,43,0.79);}
+
+
+    
+#caja1 p{margin-left: 25px;
+         margin-right: 25px;
+	     margin-top: 50px;
+	     margin-bottom: 10px;
+         font-family: 'Kanit', sans-serif;
+	     font-size: 25px;
+	     font-weight: 600;
+	     line-height: 45px;
+	     text-align: justify;
+	     padding: 10px;
+         }
+
+#tabs-1, #tabs-2, #tabs-3, #tabs-4, #tabs-5, #tabs-6{/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+67,bce0ee+78 */
+background: linear-gradient(to bottom,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 67%,rgba(188,224,238,1) 78%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#tabs li{font-family:'Nunito', sans-serif;
+         font-size: 25px;
+	     font-weight: 600;}
+
+#tabs li:hover{text-shadow: 4px 4px 2px rgba(0,0,0,0.6);}
+
+.textos{font-family: 'Nunito', sans-serif;
+        color:rgba(0,0,0,1.00)}
+
+section{	height: 450px;
+	background-color: #fff;
+}
+article{
+	width: 410px;
+	height: 300px;
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 50px;
+}
+article form{
+	border: solid 2px black;
+}
+
+form label{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	color: black;
+	font-weight: 600;
+	font-family: 'Kanit', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+form input{
+	width: 350px;
+	height: 30px;
+	margin: 5px 0px 5px 10px;
+	border: 1px solid black;
+	text-align: center;
+	color: black;
+	border-radius: 10px;
+}
+form textarea{
+	width: 350px;
+	margin: 5px 0px 5px 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+#enviar, #reset{
+	width: 120px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 40px;
+	background-color: aquamarine;
+	border-radius: 10px;
+}
+video{margin-left:10px;}
+
+audio{
+	margin: 40px 0px 0px 40px;
+	margin-left: 200px;
+}
+
+.cajas{background-color:rgba(85,85,85,0.62);
+	  width:25%;
+      height: 200px;
+      margin-top: 30px;
+      margin-left: 90px;
+      float:left;
+      }
+
+.cajas:hover{box-shadow: 0px -13px 26px 3px rgba(8,5,43,0.79);
+-webkit-box-shadow: 0px -13px 26px 3px rgba(8,5,43,0.79);
+-moz-box-shadow: 0px -13px 26px 3px rgba(8,5,43,0.79);}
+
+.cajas h3{font-family: 'Kanit', sans-serif;
+         color:rgba(0,0,0,1.00);
+         font-size:18px;
+         font-weight: 700;
+         text-transform: uppercase;
+         line-height: 24px;
+         text-align:center;
+}
+
+.cajas img{display: block;
+           margin: auto;}
+
+ 
+
+#pie{
+	color:rgba(251,251,251,1.00);
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+	font-family: 'Kanit', sans-serif;
+	background-color: rgba(0,0,0,1.00);
+}
